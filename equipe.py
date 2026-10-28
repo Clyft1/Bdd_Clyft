@@ -17,7 +17,7 @@ def choisir_personnage(disponibles):
 
 
 def choisir_equipe(personnages):
-    """Fait choisir 3 personnages différents."""
+    #Fait choisir 3 personnages différents.
     disponibles = list(personnages)
     equipe = []
     while len(equipe) < TAILLE_EQUIPE:
